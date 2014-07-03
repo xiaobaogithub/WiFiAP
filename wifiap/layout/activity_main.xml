@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background3_"
+     >
+
+ <LinearLayout
+    android:orientation="vertical"  
+    android:layout_width="match_parent"  
+    android:layout_height="wrap_content"  
+    > 
+<Button  
+    android:id="@+id/start"  
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="135sp"  
+     android:textSize="7pt" 
+    android:text="open Wifi"  
+    />  
+<Button  
+    android:id="@+id/stop"  
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="135sp" 
+     android:textSize="7pt"    
+    android:text="close Wifi"  
+    />  
+<Button  
+    android:id="@+id/check"  
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content"  
+    android:layout_marginLeft="80sp"   
+     android:textSize="7pt" 
+    android:text="the current state of wifi"  
+    />  
+    <Button  
+    android:id="@+id/scan"  
+    android:layout_width="wrap_content"   
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="135sp"    
+     android:textSize="7pt" 
+    android:text="scan wifi"  
+    />  
+  <TextView  
+    android:id="@+id/allNetWork"  
+    android:layout_width="wrap_content"  
+    android:layout_height="wrap_content"  
+    android:textSize="8pt"
+    android:textColor="#000000" 
+    android:text="You haven't scanned wifi,you can press the scan wifi button."  
+    />  
+    </LinearLayout>
+</ScrollView>
